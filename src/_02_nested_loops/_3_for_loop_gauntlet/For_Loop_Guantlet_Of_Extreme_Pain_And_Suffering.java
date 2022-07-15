@@ -31,6 +31,25 @@ public static void main(String[] args) {
 		//year ++;
 	//}
 	//NESTED LOOPS
+	//for(int i =0; i <= 2; i++) {
+		//for(int i2 = 0; i2 <= 2; i2++) {
+			//System.out.println(i + " " + i2);
+			//if(i2 > 2) {
+				//i2 = 0;
+			//}
+		//}
+	for(int i = 1; i <= 7; i += 3) {
+		for(int i2 = 2; i2 <= 8; i2 += 3 ) {
+		
+			System.out.println(i + " " +i2);
+		
+		}
+	}
+		  
+			
+	
+		
+	}
 	
 }
-}
+
