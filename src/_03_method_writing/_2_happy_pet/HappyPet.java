@@ -17,7 +17,7 @@ public class HappyPet {
 			happinessLevel += -10;
 		}else if(pet.equals("fish")) {
 			JOptionPane.showMessageDialog(null, "You take your fish out of the water and it flops arround in your hand. Realizing your mistake you plop it back into its bowl. What were you thinking?!");
-			happinessLevel += -15;
+			happinessLevel -= 15;
 	}
 	}
 	public static void food(String pet) {
